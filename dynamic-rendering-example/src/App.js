@@ -1,6 +1,7 @@
 import './App.css';
 
 import TodoItem from './components/TodoItem';
+import AddTodo from './components/AddTodo';
 
 function App() {
   const todos = [
@@ -14,15 +15,22 @@ function App() {
     return <TodoItem task={ todo.task } key={ todo.id } />
   });
 
+  function addTodo(todoText) {
+    const newTodo = {
+      id: todos.length,
+      task: todoText
+    }
+
+    todos.push(newTodo);
+    console.log(todos);
+  }
+
   return (
     <div className="App">
       <ul>
-        {/* <TodoItem task="Köp kaffe" />
-        <TodoItem task="Köp kaka" />
-        <TodoItem task="Brygg kaffe" />
-        <TodoItem task="Drick kaffe" /> */}
         { todoItems }
       </ul>
+      <AddTodo addTodo={ addTodo } />
     </div>
   );
 }
