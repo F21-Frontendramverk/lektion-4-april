@@ -21,3 +21,5 @@ Rendera arrayer i React: https://scrimba.com/learn/learnreact/react-renders-arra
 Map i React: https://scrimba.com/learn/learnreact/mapping-components-co20249b69609b9df5473acc7 (kan fortsätta med resterande videor också)
 
 ## Inspelningar
+
+https://funet-my.sharepoint.com/:f:/g/personal/christoffer_wallenberg_folkuniversitetet_se/EplCn8MBBYlEnDBOkYi__FQB9E-jAfzcg5AaKXOHXaesrQ?e=nx25RF
