@@ -1,0 +1,15 @@
+.product {
+    width: 300px;
+    border: 1px solid #dcdcdc;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px #dcdcdc;
+    margin: 1rem;
+}
+
+.product__button {
+    padding: 1rem;
+    background-color: teal;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
